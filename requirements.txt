@@ -1,0 +1,3 @@
+nomic
+torch
+transformers

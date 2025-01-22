@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IELTS Speaking Practice</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="main-container">
+    <h1>IELTS Speaking Practice Tool</h1>
+    <p>Select a mode to begin:</p>
+
+    <!-- Buttons to select mode -->
+    <div id="mode-selection">
+      <button id="practice-btn">Practice Mode</button>
+      <button id="test-btn">Test Mode</button>
+    </div>
+
+    <!-- Conversation Box -->
+    <div id="conversation-box" style="display: none;">
+      <p id="examiner-text">[Examiner instructions will appear here]</p>
+      <textarea id="response-box" placeholder="Speak here..." readonly></textarea>
+      <button id="mic-btn">🎤 Start Speaking</button>
+      <button id="submit-btn">Submit</button>
+    </div>
+
+    <!-- Results Section -->
+    <div id="results">
+      <h2>Results</h2>
+      <p id="results-summary"></p>
+      <button id="restart-btn">Restart</button>
+      <button id="download-btn" >Download Report</button>
+      <button id="generate-pdf-btn" >Generate PDF</button>
+    </div>
+  </div>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
