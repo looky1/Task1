@@ -38,4 +38,4 @@ Port Conflicts: If the server fails to start due to a port conflict, ensure no o
 Font Path Issues: Verify that the font file LiberationSerif-Regular.ttf is correctly placed in the specified path.
 PDF Loading Errors: Simplify the PDF generation to ensure basic functionality before adding complexity.
 
-Note:i removed all api keys used from the code when i uploaded to github
+Note:i removed all api keys used from the code when i uploaded to github, i sent the video over whatsapp
